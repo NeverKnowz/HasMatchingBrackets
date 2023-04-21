@@ -1,6 +1,7 @@
-let testCases = ["<>", "><", "<<>", "\"\"", "<abc...xyz>"]
+const testCases = ["<>", "><", "<<>", "\"\"", "<abc...xyz>", "<asdf><asdf>", "<<asdf<>asdf><>"]
+
 testCases.forEach(test => {
-    result = hasMatchingBrackets(test)
+    let result = hasMatchingBrackets(test)
     console.log(`${test}:${result}`)
 });
 

@@ -3,7 +3,7 @@ class TechAssesment
 {
     static void Main(string[] args)
     {
-        var testCases = new List<string>() { "<>", "><", "<<>", "\"\"", "<abc...xyz>" };
+        var testCases = new List<string>() { "<>", "><", "<<>", "\"\"", "<abc...xyz>", "<asdf><asdf>", "<<asdf<>asdf><>" };
 
         foreach (string test in testCases)
         {
